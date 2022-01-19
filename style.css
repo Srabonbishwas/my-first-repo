@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url('image/pexels-roberto-nickson-2478248.jpg');
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.534);
+    background-blend-mode: overlay;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.349);
+    margin: 0;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    padding: 20px 10px;
+}
+nav ul li:hover{
+    background-color: lime;
+    
+}
+.title-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+}
+.title-section div{
+    text-align: center;
+    color: white;
+}
+button{
+    border: none;
+    padding: 5 15;
+    background-color: lime;
+    transition: .5s;
+}
+button:hover{
+    border-radius: 20px;
+}
+.cards{
+    margin: 50px;
+}
+.form{
+    margin: 50px;
+}
+.name{
+    color: lime;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+footer h2{
+    color: lime;
+}
+.mia{
+    color: white;
+}
